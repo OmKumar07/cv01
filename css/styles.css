@@ -1,3 +1,4 @@
+/***************************TAG SELECTOR**********************/
 body {
     background-color: #EAF6F6;
 }
@@ -14,3 +15,34 @@ h1{
 h3{
     color: #5EC3B0;
 }
+/*using class for specific object not all the images*/
+/*******************************CLASS SELECTORS************************/
+.profile
+{
+    background-color: #EAF6F6;
+    border-radius: 100%;
+    
+}
+.profile:hover{
+    background-color: #5EC3B0;
+}
+/*Two Classes Can Be Applied To A Single Element*/
+.contact
+{
+    background-color: #EAF6F6;
+}
+.contact:hover
+{
+    background-color: white;
+}
+.round
+{
+    border-radius: 20%;
+}
+
+/****************************ID SELECTOR******************************/
+#index_heading
+{
+    color: #5EC3B0;
+}
+/*id are unique but classes can be duplicated*/
