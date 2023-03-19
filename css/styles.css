@@ -1,6 +1,7 @@
 /***************************TAG SELECTOR**********************/
 body {
     background-color: #EAF6F6;
+    transform: scale(1);
 }
 hr {
     border-style: none;
